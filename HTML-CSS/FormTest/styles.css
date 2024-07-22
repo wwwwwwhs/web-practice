@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #2c3049;
+    color: #e9f0f6;
+
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+    
+}
+
+form {
+    width: 400px;
+    min-width: 40%;
+    max-width: 50%; 
+    margin: 0 auto;
+    background-color: #22a3c3;
+    /* text-align: left; */
+}
+
+fieldset {
+    border: none;
+   
+}
+
+label,.base-info input,select,textarea{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.base-info input{
+    width: 100%;
+}
+
+input[name="gende"],input[name="function"]{
+    margin-top: 0.5rem;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 75;
+    height: 35px;
+    margin: 0.5rem auto;
+    background-color: #f71602;  
+    border: none; 
+   
+}
+textarea{
+    width: 100%;
+  }
+

@@ -1,0 +1,50 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color:gray;
+    text-decoration: none;
+}
+.center{
+    margin: 0 auto;
+}
+
+header{
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header a{
+    color: white;
+}
+
+main{
+    width: 80%;
+}
+
+main figure{
+    width: 90%;
+    margin: 0 auto;
+}
+main figure figcaption{
+    text-align: center;
+    font-size: 24px;
+}
+main img{
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin: 0 auto;
+    object-fit: cover;
+    
+}
+main section {
+    display: block;
+    text-align: center;
+}
+    
