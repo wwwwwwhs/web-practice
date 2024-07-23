@@ -1,0 +1,66 @@
+html{
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+ nav{
+    width: 20%;
+    position: fixed;
+    left: 10px;
+    top: 0;
+    height: 100%;
+    background-color: #5d040a;
+    color: #f3f2f8;
+    float: left;
+}
+nav header{
+    font-size:20px;
+    display: block;
+    font-weight:block;
+    padding: 10px;
+    
+}
+nav>a{
+    display: block;
+    font-weight: bold;
+    color: #f3f2f8;
+    padding: 20px 10px;
+    border-bottom: 2px solid #141824;
+}
+nav a:hover{
+    background-color:#f71602 ;
+    color: black;
+}
+main{
+    width: 75%;
+    position: absolute;
+    left: 25%;
+    top: 0;
+    margin-top: 5px;
+}
+section{
+    background-color:aliceblue ;
+    position: relative;
+    max-width: 79%;
+    left: auto;
+    padding-left: 20px;
+}
+section header{
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 20px;
+}
+section p{
+    margin: 20px 10px;
+}
+section ul{
+    padding-bottom: 20px;
+}
+@media (max-width: 1199px) and (min-width: 769px) {
+    .black{
+        font-weight: bold;
+    }
+}
